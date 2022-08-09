@@ -1,0 +1,121 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(/images/bg.jpg);
+    color: rgb(197 244 255);
+    font-size: 20px;
+    width: auto;
+    height: 3534px;
+    margin: 0px 0px;
+}
+#navigation-button-home-page-left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+top: 23px;
+left: 34px;
+position: fixed;
+}
+#navigation-button-home-page-mid{
+    /* border: 2px solid green; */
+    display: block;
+    margin: 32%;
+    width: 35%;
+    margin-top: 34px;
+    position: fixed;
+}
+#navigation-button-home-page-right{
+/* border: 2px solid blue; */
+display: inline-block;
+
+top: 41px;
+right: 34px;
+position: fixed;
+}
+#navigation-button-home-page-left a img{
+    width: 57px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+}
+#navigation-button-home-page-left div{
+    font-size: 15px;
+}
+#navigation-button-home-page-mid a{
+    color: rgb(197 244 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 34px;
+}
+#navigation-button-home-page-mid a:hover{
+    color:gray;
+    text-decoration: underline;
+}
+.navigation-buttons-home-page-login-signup-buttons{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #9d9d9d;
+    color: rgb(197 244 255);
+    border:2px solid white;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding: 3px 10px;
+}
+.navigation-buttons-home-page-login-signup-buttons:hover{
+    color: rgb(255, 0, 0);
+    background-color: grey;
+}
+#footer-home-page-57-pixels{
+    width: 57px;
+    filter: invert(100%);
+    display:inline-block;
+    margin: auto;
+    position: fixed;
+    bottom: 25px;
+
+}
+#homepage-footer{
+position: absolute;
+bottom: 8px;
+left: 80px;
+}
+#homepage-footer p{
+    display: inline-block;
+    margin: 30px 10px;
+}
+#home-page-site-name-about-site-title{
+    margin: 300px 30px;
+}
+.horizontal-ruler{
+    position: fixed;
+    top: 100px;
+   width: 100000px;
+}
+#homepage-footer{
+    position: fixed;
+}
+#horizontal-ruler-footer{
+    position: fixed;
+    bottom: 100px;
+    width: 10000px;
+}
+#home-page-about-site{
+    width: 600px;
+    margin-left: 50px;
+}
+#heading-title-home-page{
+    margin-bottom:0px;
+}
+#home-page-about-site p{
+    margin-top: 5px;
+}
+#home-page-about-site p a{
+    color: aqua;
+}
+#home-page-about-site p a:hover{
+    color: red;
+}
+#we-are-coming{
+    width: 800px;
+    margin: auto;
+    font-size: 50px;
+}
